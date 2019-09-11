@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+
+    background-color: #9fe8fa;
+    /* red: ff0000 */
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 20px;
+
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+h1 {
+    display: table;
+
+    margin: 0 auto;
+
+    color: white;
+}
+
+input[type="submit"] {
+    height: 24px;
+
+    cursor: pointer;
+
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+.todo-list {
+    width: 100%;
+    height: auto;
+}
+
+#form {
+    height: 100px;
+
+    text-align: center;
+    /* border: 1px solid red; */
+
+    line-height: 100px;
+}
+
+ul {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 0;
+
+    text-align: center;
+
+    /* border: 1px solid green; */
+}
+
+li {
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+
+    list-style-type: none;
+
+    transition: 0.3s;
+    word-wrap: break-word;
+
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+li:hover {
+    cursor: pointer;
+
+    background-color: #F9A79F;
+    /* color: white; */
+
+    /* rolling cross to the right */
+}
